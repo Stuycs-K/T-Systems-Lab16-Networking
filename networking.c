@@ -28,7 +28,7 @@ int server_setup() {
 }
 
 /*Accept a connection from a client
- *return the socket descriptor for the new sockeet connected to the client
+ *return the socket descriptor for the new socket connected to the client
  *blocks until connection is made.
  */
 int server_tcp_handshake(int listen_socket){
